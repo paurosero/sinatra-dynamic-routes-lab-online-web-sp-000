@@ -10,7 +10,7 @@ class App < Sinatra::Base
     @square = :number.to_i * :number.to_i 
     @square.to_s
     "#{@square}"
-  en
+  end
   
   get '/say/:number/:phrase' do
     
